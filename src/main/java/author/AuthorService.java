@@ -41,4 +41,7 @@ public class AuthorService {
     public void deleteAuthor(Long id){
         authorRepository.deleteById(id);
     }
+    public Author getByName(String name){
+        return authorRepository.findByName(name);
+    }
 }

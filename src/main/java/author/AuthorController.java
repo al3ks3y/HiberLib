@@ -13,10 +13,12 @@ public class AuthorController {
     public List<Author> getAllAuthors(){
             return authorService.getAuthors();
     }
-    @RequestMapping("/authors/{id}")
+    /*@RequestMapping("/authors/{id}")
     public Author getAuthor(@PathVariable Long id){
         return authorService.getAuthor(id);
     }
+
+     */
     @RequestMapping(method = RequestMethod.POST, value = "/authors")
     public void addAuthor(@RequestBody Author author){
         authorService.addAuthor(author);
@@ -28,5 +30,9 @@ public class AuthorController {
     @RequestMapping(method = RequestMethod.DELETE, value = "/authors/{id}")
     public void deleteAuthor(@PathVariable Long id){
         authorService.deleteAuthor(id);
+    }
+    @RequestMapping("/authors/{name}")
+    public Author findByName(@PathVariable String name){
+        return authorService.getByName(name);
     }
 }
