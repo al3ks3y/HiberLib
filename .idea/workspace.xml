@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b36ccb-b03d-404c-872a-ad340d9ac502" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/author/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/author/AuthorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/author/AuthorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/author/AuthorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/author/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/author/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/author/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/author/Author.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,11 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/author/Author.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="714">
+              <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,7 +192,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Application.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -243,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/main/java/author/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/author/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/author/Book.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/author/BookTest.java" />
@@ -251,6 +249,7 @@
         <option value="$PROJECT_DIR$/src/main/java/author/AuthorRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/author/AuthorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/author/AuthorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/author/Author.java" />
       </list>
     </option>
   </component>
@@ -477,7 +476,7 @@
       <workItem from="1574777883980" duration="8233000" />
       <workItem from="1574793449667" duration="3180000" />
       <workItem from="1574827501740" duration="30900000" />
-      <workItem from="1574917728604" duration="2579000" />
+      <workItem from="1574917728604" duration="2882000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the FindByName method">
       <created>1574921446851</created>
@@ -513,7 +512,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66261000" />
+    <option name="totallyTimeSpent" value="66564000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,7 +527,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12473348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -753,16 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/author/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/author/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -808,17 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/author/AuthorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#addAuthor#0;n#AuthorController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/author/AuthorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -837,6 +815,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Application.yml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/author/AuthorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#addAuthor#0;n#AuthorController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/author/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
